@@ -81,17 +81,19 @@ static const KbBindingData defaultKbBindings[] =
 	{ SDL_SCANCODE_X,        Input::B   },
 	{ SDL_SCANCODE_D,        Input::Z   },
 	{ SDL_SCANCODE_Q,        Input::L   },
-	{ SDL_SCANCODE_PAGEUP,   Input::L   },
+	{ SDL_SCANCODE_LALT,     Input::L   },
 	{ SDL_SCANCODE_W,        Input::R   },
-	{ SDL_SCANCODE_PAGEDOWN, Input::R   },
 	{ SDL_SCANCODE_A,        Input::X   },
+	{ SDL_SCANCODE_PAGEUP,   Input::X   },
 	{ SDL_SCANCODE_S,        Input::Y   },
+	{ SDL_SCANCODE_PAGEDOWN, Input::Y   },
 	{ SDL_SCANCODE_LSHIFT,   Input::D   },
 	{ SDL_SCANCODE_RSHIFT,   Input::D   },
+	{ SDL_SCANCODE_M,        Input::D   },
 	{ SDL_SCANCODE_TAB,      Input::E   },
-	{ SDL_SCANCODE_LALT,     Input::E   },
-	{ SDL_SCANCODE_M,        Input::E   },
+	{ SDL_SCANCODE_N,        Input::E   },
 	{ SDL_SCANCODE_F7,       Input::F   },
+	{ SDL_SCANCODE_LCTRL,    Input::F   }
 };
 
 /* RGSS1 */
